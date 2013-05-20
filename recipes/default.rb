@@ -38,11 +38,11 @@ end
 
 #install basic collector configs
 include_recipe 'diamond::diskusage'
-include_recipe 'diamond::diskspace'
+#include_recipe 'diamond::diskspace'
 include_recipe 'diamond::vmstat'
 include_recipe 'diamond::memory'
 include_recipe 'diamond::network'
-include_recipe 'diamond::tcp'
+#include_recipe 'diamond::tcp'
 include_recipe 'diamond::loadavg'
 include_recipe 'diamond::cpu'
 
